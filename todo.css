@@ -1,0 +1,75 @@
+.todo
+{
+  text-align:center;
+  font-size: 50px;
+  color:blue;
+
+
+
+
+}
+
+.container-fluid
+{
+
+background: url(images.jpg) no-repeat;
+background-size: cover;
+width: 100%;
+height:600px;
+  
+
+}
+
+.items
+{
+  margin: 19px;
+    padding: 31px;
+    display: block;
+    padding-left: 413px;
+
+
+}
+
+table
+{
+ width:50%;
+
+border-collapse: collapse;
+font-size: 35px;
+color: darkred;
+}
+
+td{
+  width:15%;
+border: 5px solid black;
+border-collapse: collapse;;
+
+
+}
+
+.items1
+{
+
+margin: 19px;
+    padding: 31px;
+    display: block;
+    padding-left: 516px;
+
+
+
+
+}
+
+
+.btn-success
+{
+
+width: 200px;
+
+}
+.form-control
+{
+
+
+  margin-left:-161px;
+}

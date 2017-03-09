@@ -1,0 +1,32 @@
+
+<div class="container-fluid">
+<div ng-controller="loginCtrl">
+    
+   <header>
+    <h1 class="todo">LIST TO BE DONE TODAY</h1>
+   </header>
+   
+       
+         
+       
+    <div class="items">
+      <table>
+          <tr ng-repeat ="x in product">                                    
+              <td><input type="checkbox" ng-model="checked" ng-click="check(x)">{{x.text}}</td>
+              <td>{{x.status}}</td>
+              <td><span ng-click="removeItem(x)"><i class="fa fa-times" aria-hidden="true"></i></span></td>
+          </tr>
+          </table>
+
+      </div>  
+
+    <div class="items1">
+   <input placeholder="Add shopping items here" ng-model="addMe" size="20" class="form-control"><br/><br/>
+   <button ng-click="addItem()" class="btn btn-success">Add</button>
+    </div>
+   
+      </div>
+
+   
+
+ </div>   
